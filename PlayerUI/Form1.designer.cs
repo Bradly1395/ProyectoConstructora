@@ -96,7 +96,7 @@
             this.btnExit.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnExit.Size = new System.Drawing.Size(233, 45);
             this.btnExit.TabIndex = 9;
-            this.btnExit.Text = "  Exit";
+            this.btnExit.Text = "  Salir";
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnExit.UseVisualStyleBackColor = false;
@@ -118,7 +118,7 @@
             this.btnHelp.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnHelp.Size = new System.Drawing.Size(233, 45);
             this.btnHelp.TabIndex = 8;
-            this.btnHelp.Text = "  Help";
+            this.btnHelp.Text = "  Ayuda";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHelp.UseVisualStyleBackColor = false;
@@ -488,6 +488,7 @@
             this.MinimumSize = new System.Drawing.Size(950, 600);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panelSideMenu.ResumeLayout(false);
             this.panelToolsSubMenu.ResumeLayout(false);
             this.panelPlaylistSubMenu.ResumeLayout(false);
