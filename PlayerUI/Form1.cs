@@ -84,6 +84,7 @@ namespace PlayerUI
         #region PlayListManagemetSubMenu
         private void button8_Click(object sender, EventArgs e)
         {
+            openChildForm(new Form3());
             //..
             //your codes
             //..
