@@ -84,7 +84,7 @@ namespace PlayerUI
         #region PlayListManagemetSubMenu
         private void button8_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form3());
+            openChildForm(new CrearActividad());
             //..
             //your codes
             //..
@@ -123,6 +123,7 @@ namespace PlayerUI
         #region ToolsSubMenu
         private void button13_Click(object sender, EventArgs e)
         {
+            openChildForm(new CrearActividad());
             //..
             //your codes
             //..
@@ -156,7 +157,7 @@ namespace PlayerUI
 
         private void btnEqualizer_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form3());
+            openChildForm(new CrearActividad());
             //..
             //your codes
             //..
