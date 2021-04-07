@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actividades\Materiales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Materiales.designer.cs">
+      <DependentUpon>Materiales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\Maquinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Maquinaria.designer.cs">
+      <DependentUpon>Maquinaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Principal.designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\ManoDeObra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\ManoDeObra.designer.cs">
+      <DependentUpon>ManoDeObra.cs</DependentUpon>
     </Compile>
     <Compile Include="Proyectos\CrearProyecto.cs">
       <SubType>Form</SubType>
@@ -66,8 +84,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Actividades\Materiales.resx">
+      <DependentUpon>Materiales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Maquinaria.resx">
+      <DependentUpon>Maquinaria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\ManoDeObra.resx">
+      <DependentUpon>ManoDeObra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proyectos\CrearProyecto.resx">
       <DependentUpon>CrearProyecto.cs</DependentUpon>

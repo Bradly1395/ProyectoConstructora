@@ -53,6 +53,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panelPlayer = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
             this.panelSideMenu.SuspendLayout();
             this.panelToolsSubMenu.SuspendLayout();
             this.panelPlaylistSubMenu.SuspendLayout();
@@ -91,7 +92,7 @@
             this.btnExit.ForeColor = System.Drawing.Color.Silver;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExit.Location = new System.Drawing.Point(0, 732);
+            this.btnExit.Location = new System.Drawing.Point(0, 765);
             this.btnExit.Name = "btnExit";
             this.btnExit.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnExit.Size = new System.Drawing.Size(233, 45);
@@ -113,7 +114,7 @@
             this.btnHelp.ForeColor = System.Drawing.Color.Silver;
             this.btnHelp.Image = ((System.Drawing.Image)(resources.GetObject("btnHelp.Image")));
             this.btnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHelp.Location = new System.Drawing.Point(0, 687);
+            this.btnHelp.Location = new System.Drawing.Point(0, 720);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnHelp.Size = new System.Drawing.Size(233, 45);
@@ -127,13 +128,14 @@
             // panelToolsSubMenu
             // 
             this.panelToolsSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.panelToolsSubMenu.Controls.Add(this.button9);
             this.panelToolsSubMenu.Controls.Add(this.button10);
             this.panelToolsSubMenu.Controls.Add(this.button12);
             this.panelToolsSubMenu.Controls.Add(this.button13);
             this.panelToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelToolsSubMenu.Location = new System.Drawing.Point(0, 557);
             this.panelToolsSubMenu.Name = "panelToolsSubMenu";
-            this.panelToolsSubMenu.Size = new System.Drawing.Size(233, 130);
+            this.panelToolsSubMenu.Size = new System.Drawing.Size(233, 163);
             this.panelToolsSubMenu.TabIndex = 7;
             // 
             // button10
@@ -477,7 +479,27 @@
             this.panelPlayer.Size = new System.Drawing.Size(684, 60);
             this.panelPlayer.TabIndex = 1;
             // 
-            // Form1
+            // button9
+            // 
+            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.Color.Silver;
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.Location = new System.Drawing.Point(0, 120);
+            this.button9.Name = "button9";
+            this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button9.Size = new System.Drawing.Size(233, 40);
+            this.button9.TabIndex = 3;
+            this.button9.Text = "       Materiales";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
+            // 
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -490,7 +512,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(950, 600);
-            this.Name = "Form1";
+            this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Constructora";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -530,6 +552,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.Panel panelPlayer;
+        private System.Windows.Forms.Button button9;
     }
 }
 

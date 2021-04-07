@@ -132,6 +132,7 @@ namespace PlayerUI
 
         private void button12_Click(object sender, EventArgs e)
         {
+            openChildForm(new ManoDeObra());
             //..
             //your codes
             //..
@@ -140,6 +141,7 @@ namespace PlayerUI
 
         private void button10_Click(object sender, EventArgs e)
         {
+            openChildForm(new Maquinaria());
             //..
             //your codes
             //..
@@ -193,6 +195,15 @@ namespace PlayerUI
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new Materiales());
+            //..
+            //your codes
+            //..
+            hideSubMenu();
         }
     }
 }
